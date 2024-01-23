@@ -41,7 +41,7 @@
     /*  Timeline 1 on mounted */
     t1.play();
 
-    t1.to(".car-1", { ease: "elastic.out(1, .8)", top: "17%", rotate: 0, duration: 1.5 });
+    t1.to(".car-1", { ease: "elastic.out(1, .8)", top: "17%", duration: 1.5 });
     t1.to(".menu", { ease: "elastic.out(1, .8)", marginLeft: '1rem', duration: 1.5 }, 0.3);
     t1.to(".profile", { ease: "elastic.out(1, .8)", marginRight: '1rem', duration: 1.5 }, 0.3);
     t1.to(".heading", { ease: "elastic.out(1, .8)", bottom: "32%", duration: 1.5 }, 0.3);
