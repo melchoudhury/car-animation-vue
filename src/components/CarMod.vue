@@ -102,7 +102,7 @@
     }
 
     .car {
-        transform: translate(-50%);
+        transform: translate(-50%) !important;
     }
 
     h1,
